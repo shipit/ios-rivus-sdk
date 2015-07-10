@@ -5,6 +5,7 @@ v0.6-beta
 ---------
 
 1. Fixed recovering from lock screen while video playback is in progress
+2. Interval Release Version: 201507.10
 
 v0.5-beta
 ---------
