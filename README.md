@@ -1,3 +1,12 @@
+Welcome
+=======
+
+Hello and welcome to Rivus SDK for iOS! We offer choice based ad-units and our data proves that choice performs higher on eCPM and while guaranteeing you higher fill rate than competition. To get started - download the SDK, follow the integration instructions, and experience the choice based ad-format.
+
+At this point we are in closed beta therefore to setup production Publisher Id, please get in touch with elise@rivusmedia.com
+
+Happy Monetization!
+
 Changelog
 =========
 
