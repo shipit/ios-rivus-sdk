@@ -23,8 +23,8 @@
 
 -(void) initRivusSDK {
     if(![RMISDK isInited]){
-        NSString *publisherId = @"537656056";
-        NSString *appName = @"GameDemo";
+        NSString *publisherId = @"538020539";
+        NSString *appName = @"Demo App Publisher";
         RMISDK *sdk = [RMISDK sdkWithPublisherID:publisherId andAppName:appName andTargetingData:nil];
         [sdk setLogLevel:RMISDKLogLevelOff];
     }
