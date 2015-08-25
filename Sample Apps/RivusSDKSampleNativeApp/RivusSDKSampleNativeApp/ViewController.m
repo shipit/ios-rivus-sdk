@@ -25,7 +25,7 @@
 }
 - (IBAction)lauchButtonClick:(id)sender {
     if([[RMISDK sdk] isReady]){
-        [[RMISDK sdk] displayFromViewController:self withDelegate:nil withTag:nil askUser:NO];
+        [[RMISDK sdk] displayFromViewController:self withDelegate:nil withTag:nil];
     }
     else {
         NSString *message = @"RivusSDK is currently loading...";

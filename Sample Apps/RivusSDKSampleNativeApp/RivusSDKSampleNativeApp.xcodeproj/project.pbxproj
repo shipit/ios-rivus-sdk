@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092F82621B8CF7B50078F590 /* RivusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F82611B8CF7B50078F590 /* RivusSDK.framework */; };
 		09CBAC3B1B5C29250017FD0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CBAC3A1B5C29250017FD0F /* main.m */; };
 		09CBAC3E1B5C29250017FD0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CBAC3D1B5C29250017FD0F /* AppDelegate.m */; };
 		09CBAC411B5C29250017FD0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CBAC401B5C29250017FD0F /* ViewController.m */; };
@@ -14,8 +15,6 @@
 		09CBAC461B5C29250017FD0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CBAC451B5C29250017FD0F /* Images.xcassets */; };
 		09CBAC491B5C29250017FD0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CBAC471B5C29250017FD0F /* LaunchScreen.xib */; };
 		09CBAC551B5C29250017FD0F /* RivusSDKSampleNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CBAC541B5C29250017FD0F /* RivusSDKSampleNativeAppTests.m */; };
-		09CBAC611B5C2AC90017FD0F /* RivusSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09CBAC5F1B5C2AC90017FD0F /* RivusSDK.bundle */; };
-		09CBAC621B5C2AC90017FD0F /* RivusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBAC601B5C2AC90017FD0F /* RivusSDK.framework */; };
 		09CBAC651B5C2EF80017FD0F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBAC641B5C2EF80017FD0F /* AdSupport.framework */; };
 		09CBAC671B5C2EFF0017FD0F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBAC661B5C2EFF0017FD0F /* AVFoundation.framework */; };
 		09CBAC691B5C2F050017FD0F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBAC681B5C2F050017FD0F /* CoreImage.framework */; };
@@ -40,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092F82611B8CF7B50078F590 /* RivusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RivusSDK.framework; sourceTree = "<group>"; };
 		09CBAC351B5C29250017FD0F /* RivusSDKSampleNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RivusSDKSampleNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CBAC391B5C29250017FD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CBAC3A1B5C29250017FD0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,8 +53,6 @@
 		09CBAC4E1B5C29250017FD0F /* RivusSDKSampleNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RivusSDKSampleNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CBAC531B5C29250017FD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CBAC541B5C29250017FD0F /* RivusSDKSampleNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RivusSDKSampleNativeAppTests.m; sourceTree = "<group>"; };
-		09CBAC5F1B5C2AC90017FD0F /* RivusSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RivusSDK.bundle; sourceTree = "<group>"; };
-		09CBAC601B5C2AC90017FD0F /* RivusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RivusSDK.framework; sourceTree = "<group>"; };
 		09CBAC641B5C2EF80017FD0F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		09CBAC661B5C2EFF0017FD0F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		09CBAC681B5C2F050017FD0F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -78,13 +76,13 @@
 				09CBAC751B5C2F2B0017FD0F /* StoreKit.framework in Frameworks */,
 				09CBAC731B5C2F250017FD0F /* QuartzCore.framework in Frameworks */,
 				09CBAC711B5C2F200017FD0F /* MediaPlayer.framework in Frameworks */,
+				092F82621B8CF7B50078F590 /* RivusSDK.framework in Frameworks */,
 				09CBAC6F1B5C2F180017FD0F /* CoreTelephony.framework in Frameworks */,
 				09CBAC6D1B5C2F130017FD0F /* CoreMedia.framework in Frameworks */,
 				09CBAC6B1B5C2F0A0017FD0F /* CoreGraphics.framework in Frameworks */,
 				09CBAC691B5C2F050017FD0F /* CoreImage.framework in Frameworks */,
 				09CBAC671B5C2EFF0017FD0F /* AVFoundation.framework in Frameworks */,
 				09CBAC651B5C2EF80017FD0F /* AdSupport.framework in Frameworks */,
-				09CBAC621B5C2AC90017FD0F /* RivusSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +159,7 @@
 		09CBAC5E1B5C2A9C0017FD0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				092F82611B8CF7B50078F590 /* RivusSDK.framework */,
 				09CBAC781B5C2F3C0017FD0F /* libicucore.dylib */,
 				09CBAC761B5C2F350017FD0F /* SystemConfiguration.framework */,
 				09CBAC741B5C2F2B0017FD0F /* StoreKit.framework */,
@@ -172,8 +171,6 @@
 				09CBAC681B5C2F050017FD0F /* CoreImage.framework */,
 				09CBAC661B5C2EFF0017FD0F /* AVFoundation.framework */,
 				09CBAC641B5C2EF80017FD0F /* AdSupport.framework */,
-				09CBAC5F1B5C2AC90017FD0F /* RivusSDK.bundle */,
-				09CBAC601B5C2AC90017FD0F /* RivusSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 			files = (
 				09CBAC441B5C29250017FD0F /* Main.storyboard in Resources */,
 				09CBAC491B5C29250017FD0F /* LaunchScreen.xib in Resources */,
-				09CBAC611B5C2AC90017FD0F /* RivusSDK.bundle in Resources */,
 				09CBAC461B5C29250017FD0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +484,7 @@
 				09CBAC5A1B5C29250017FD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09CBAC5B1B5C29250017FD0F /* Build configuration list for PBXNativeTarget "RivusSDKSampleNativeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +493,7 @@
 				09CBAC5D1B5C29250017FD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -58,8 +58,8 @@ typedef enum {
 
 -(void)displayFromViewController:(UIViewController *)appViewController
                     withDelegate:(id<RMISDKDelegate>)delegate
-                  withTag:(NSString *)tag
-                         askUser:(BOOL)askUser;
+                  withTag:(NSString *)tag;
+
 //------------------------------------------------
 //  Optional: Properties of RMIViewController
 //------------------------------------------------
