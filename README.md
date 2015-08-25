@@ -10,6 +10,15 @@ Happy Monetization!
 Changelog
 =========
 
+v0.7-beta
+---------
+
+1. Removed all file assets. Bundle no longer required.
+2. Added frequency cap feature.
+3. Fixed caching issues and improved caching performance.
+4. Added location tracking for apps having the sufficient permissions.
+5. Internal Release Version: 201508.25
+
 v0.6-beta
 ---------
 
