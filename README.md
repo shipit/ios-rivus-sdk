@@ -17,7 +17,8 @@ v0.7-beta
 2. Added frequency cap feature.
 3. Fixed caching issues and improved caching performance.
 4. Added location tracking for apps having the sufficient permissions.
-5. Internal Release Version: 201508.25
+5. Removed the askUser parameter to the ``` -(void)displayFromViewController:(UIViewController *)appViewController withDelegate:(id<RMISDKDelegate>)delegate withTag:(NSString *)tag; ``` method
+6. Internal Release Version: 201508.25
 
 v0.6-beta
 ---------
